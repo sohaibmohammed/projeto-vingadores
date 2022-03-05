@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    min-height: 100vh;
+}
+
+h2 {
+    margin-bottom: 32px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+header {
+    background-color: #111111;
+    padding: 16px 48px;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 140px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+header a {
+    color: #ebebeb;
+    text-decoration: none;
+    padding: 4px 0;
+    transition: color 0.2s, border 0.2s;
+
+}
+
+
+header a:hover {
+    color: #f13239;
+    border-top: 1px solid #f13239;
+}
+
+.hero {
+    height: 320px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero h1 {
+    color: #ebebeb;
+}
+
+.galeria {
+    max-width: 1200px;
+    margin: 0 auto 92px;
+    padding: 48px;
+}
+
+.galeria h2 {
+    font-size: 24px;
+}
+
+.galeria h3 {
+    font-size: 16px;
+}
+
+.galeria .card {
+    flex: 1 1 200px;
+}
+
+.galeria img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.personagens {
+    background-color: #111111;
+    color: #ebebeb;
+    padding: 48px;
+}
+
+.personagens p {
+    margin-bottom: 24px;
+    line-height: 28px;
+}
+
+.personagens a {
+    color: #f13239;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.personagens a:hover {
+    color: #ebebeb;
+}
+
+.personagens .container {
+    /* background-color: orangered; */
+    align-items: center;
+    border-bottom: 1px solid #f13239;
+}
+
+.personagens .container div {
+    /* background-color: cornflowerblue; */
+    flex: 1 1 450px;
+}
+
+.personagens img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+footer {
+    background-color: #111111;
+    color: #ebebeb;
+    text-align: center;
+    padding: 48px;
+}
+
+footer span {
+    color: #f13239;
+}
+
+
+
+
+
+
