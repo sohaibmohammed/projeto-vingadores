@@ -63,14 +63,39 @@ header a:hover {
     background-size: cover;
     background-position: top center;
     margin-bottom: 48px;
+    padding: 16px;
+
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
 }
 
 .hero h1 {
     color: #ebebeb;
+    font-size: 36px;
 }
+
+.hero ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+.hero .active {
+    background-color: #f13239;
+}
+
+.hero ul button {
+    border: none;
+    background-color: #ebebeb;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 
 .gallery {
     padding: 24px;
